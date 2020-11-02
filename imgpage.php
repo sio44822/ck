@@ -13,9 +13,9 @@
 	    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 	    <meta name="generator" content="Jekyll v4.1.1">
 	    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
-		<link href="../test/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link href="../test/assets/jquery.fancybox.min.css" rel="stylesheet">
-<SCRIPT src="../test/assets/jquery.fancybox.min.js"></SCRIPT>
+		<link href="./assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="./assets/jquery.fancybox.min.css" rel="stylesheet">
+<SCRIPT src="./assets/jquery.fancybox.min.js"></SCRIPT>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
 
@@ -28,7 +28,7 @@
 		</nav>
 
 		<div class="container-fluid" id="app">
-		   <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
+		   <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">設備展示</h1>
 		   <input type="text"  v-model="loca" v-on:keyup.enter="loadimg">
 		   <button v-on:click="loadimg" class="btn btn-primary">選擇</button>
 
@@ -36,8 +36,8 @@
 			<div class="row text-center text-lg-left" >
 				
 				<div class="col-lg-3 col-md-4 col-12 mb-3" v-for="photo in photos">
-			      <a data-fancybox="gallery" :href="'../test/設備圖片/'+location+'/'+photo.item" >
-			            <img class=" img-thumbnail" :src="'../test/設備圖片/'+location+'/'+photo.item" alt="">
+			      <a data-fancybox="gallery" :href="'./設備圖片/'+location+'/'+photo.item" >
+			            <img class=" img-thumbnail" :src="'./設備圖片/'+location+'/'+photo.item" alt="">
 			          </a>
 			    </div>
 			    	

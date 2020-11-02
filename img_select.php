@@ -1,6 +1,6 @@
 <?PHP
 include 'mysql_conf.php';
-$dir="./test/設備圖片";
+$dir="./設備圖片";
 if(!empty($_POST['location'])){
 	$dir=$dir."/".$_POST['location'];
 }

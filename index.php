@@ -36,7 +36,7 @@ $conn->close();
 	    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 	    <meta name="generator" content="Jekyll v4.1.1">
 	    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
-		<link href="./test/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link href="./itdevice/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 		<script src="./assets/jquery/jquery-3.5.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js"></script>
@@ -57,7 +57,7 @@ $conn->close();
 
 	    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow" data-po="po1">
 		  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">資訊設備</a>
-		  		  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="../test/imgpage.php">PICUTRE</a>
+		  		  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="../itdevice/imgpage.php">PICUTRE</a>
 		</nav>
 
 
